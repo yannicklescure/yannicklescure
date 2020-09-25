@@ -1,24 +1,29 @@
-# README
+### Hi there 👋
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Deployment steps
 
-Things you may want to cover:
+        $ rails new yannicklescure.com --database postgresql --webpack=vue
+        $ cd yannicklescure.com/
+        $ git status
+        $ git add .
+        $ git commit -m "Initial commit"
+        $ git remote add origin git@github.com:yannicklescure/yannicklescure.git
+        $ git remote -v
+        $ git pull origin master --allow-unrelated-histories
+        $ git push origin master
 
-* Ruby version
 
-* System dependencies
+<!--
+**yannicklescure/yannicklescure** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-* Configuration
+Here are some ideas to get you started:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
