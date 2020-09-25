@@ -13,14 +13,11 @@
 !/log/.keep
 !/tmp/.keep
 
-# Ignore pidfiles, but keep the directory.
-/tmp/pids/*
-!/tmp/pids/
-!/tmp/pids/.keep
-
 # Ignore uploaded files in development.
 /storage/*
 !/storage/.keep
+/public/uploads
+/public/uploads/*
 
 /public/assets
 .byebug_history
@@ -34,3 +31,10 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+# Ignore .env file containing credentials.
+.env*
+
+# Ignore Mac and Linux file system files
+*.swp
+.DS_Store
