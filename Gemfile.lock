@@ -194,6 +194,8 @@ GEM
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
+    serviceworker-rails (0.6.0)
+      railties (>= 3.1)
     simple_token_authentication (1.17.0)
       actionmailer (>= 3.2.6, < 7)
       actionpack (>= 3.2.6, < 7)
@@ -264,6 +266,7 @@ DEPENDENCIES
   sass-rails (>= 6)
   seed_dump
   selenium-webdriver
+  serviceworker-rails
   simple_token_authentication
   spring
   spring-watcher-listen (~> 2.0.0)
