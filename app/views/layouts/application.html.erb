@@ -5,13 +5,14 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="manifest" href="/manifest.json" />
-    <meta name="apple-mobile-web-app-capable" content="yes"></head>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  </head>
 
   <body>
     <%= yield %>
+    <%= javascript_packs_with_chunks_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_packs_with_chunks_tag 'application' %>
     <%= javascript_packs_with_chunks_tag 'hello_vue' %>
   </body>
