@@ -32,6 +32,9 @@
     $ touch Aptfile
     $ git push heroku master
 
+### Bootstrap
+https://www.digitalocean.com/community/tutorials/how-to-add-bootstrap-to-a-ruby-on-rails-application
+
 ## Gem addition
 
 ### Development
