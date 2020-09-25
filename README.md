@@ -18,6 +18,11 @@
     $ bundle install
     $ touch app/assets/javascripts/application.js
     $ rails g serviceworker:install
+    $ rails generate devise:install
+    $ rails generate devise User
+    $ rails db:migrate
+    $ rails g devise:views
+    $ touch app/views/application.html.erb
 
 ## Gem addition
 
@@ -47,6 +52,10 @@
 * gem 'webp-ffi'
 * gem 'rails_same_site_cookie'
 * gem 'bootstrap-email'
+* gem 'devise'
+* gem 'rails-i18n'
+* gem 'devise-i18n'
+* gem 'devise-i18n-views'
 
 <!--
 **yannicklescure/yannicklescure** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
