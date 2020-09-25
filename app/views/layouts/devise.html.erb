@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yannick Lescure</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -10,10 +9,17 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_packs_with_chunks_tag 'application', 'data-turbolinks-track': 'reload', 'data-turbolinks-eval': false %>
-    <%= javascript_packs_with_chunks_tag 'hello_vue' %>
+    <%#= javascript_packs_with_chunks_tag 'hello_vue' %>
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container">
+      <div class="d-flex vh-100 justify-content-center align-items-center">
+        <div>
+          <%= yield %>
+          <%= link_to t(".return"), root_path, data: { turbolinks: false } %>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
