@@ -57,24 +57,24 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'device_detector'
-gem 'postmark-rails'
-# gem 'friendly_id', '~> 5.2.4'
-gem 'nokogiri'
-gem 'public_suffix' # https://github.com/weppos/publicsuffix-ruby/
-gem 'pundit'
-gem 'simple_token_authentication'
-# gem 'ancestry' # https://github.com/stefankroes/ancestry + https://stackoverflow.com/questions/25483351/passing-parent-id-to-a-comment
-gem 'aws-sdk-s3', '~> 1'
-gem 'carrierwave', '~> 2.0'
-gem 'fog-aws'
-# gem 'serviceworker-rails'
-gem 'impressionist'
-gem 'rack-cors'
-gem 'data-confirm-modal'
-# gem 'webp-ffi'
 gem 'rails_same_site_cookie'
-gem 'bootstrap-email'
 gem 'devise'
 gem 'devise-i18n'
 gem 'devise-i18n-views'
+gem 'pundit'
+gem 'postmark-rails'
+gem 'simple_token_authentication'
+# gem 'device_detector'
+# gem 'friendly_id', '~> 5.2.4'
+# gem 'nokogiri'
+# gem 'public_suffix' # https://github.com/weppos/publicsuffix-ruby/
+# gem 'ancestry' # https://github.com/stefankroes/ancestry + https://stackoverflow.com/questions/25483351/passing-parent-id-to-a-comment
+# gem 'carrierwave', '~> 2.0'
+# gem 'fog-aws'
+# gem 'aws-sdk-s3', '~> 1'
+# gem 'serviceworker-rails'
+# gem 'impressionist'
+# gem 'rack-cors'
+# gem 'data-confirm-modal'
+# gem 'webp-ffi'
+# gem 'bootstrap-email'
