@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+git_source(:github) { |repo| 'https://github.com/#{repo}.git' }
 
 ruby '2.7.1'
 
@@ -31,6 +31,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'dotenv-rails'
 end
 
 group :development do
@@ -40,6 +41,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'letter_opener'
+  gem 'seed_dump'
 end
 
 group :test do
@@ -52,3 +55,22 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'device_detector'
+gem 'postmark-rails'
+# gem 'friendly_id', '~> 5.2.4'
+gem 'nokogiri'
+gem 'public_suffix' # https://github.com/weppos/publicsuffix-ruby/
+gem 'pundit'
+gem 'simple_token_authentication'
+# gem 'ancestry' # https://github.com/stefankroes/ancestry + https://stackoverflow.com/questions/25483351/passing-parent-id-to-a-comment
+gem 'aws-sdk-s3', '~> 1'
+gem 'carrierwave', '~> 2.0'
+gem 'fog-aws'
+gem 'serviceworker-rails'
+gem 'impressionist'
+gem 'rack-cors'
+gem 'data-confirm-modal'
+gem 'webp-ffi'
+gem 'rails_same_site_cookie'
+gem 'bootstrap-email'
