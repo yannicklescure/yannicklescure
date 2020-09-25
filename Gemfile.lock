@@ -96,7 +96,6 @@ GEM
       concurrent-ruby (~> 1.0)
     jbuilder (2.10.1)
       activesupport (>= 5.0.0)
-    json (2.3.1)
     launchy (2.5.0)
       addressable (~> 2.7)
     letter_opener (1.7.0)
@@ -122,16 +121,9 @@ GEM
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
     pg (1.2.3)
-    postmark (1.21.2)
-      json
-    postmark-rails (0.20.0)
-      actionmailer (>= 3.0.0)
-      postmark (~> 1.15)
     public_suffix (4.0.6)
     puma (4.3.6)
       nio4r (~> 2.0)
-    pundit (2.1.0)
-      activesupport (>= 3.0.0)
     rack (2.2.3)
     rack-proxy (0.6.5)
       rack
@@ -196,10 +188,6 @@ GEM
       rubyzip (>= 1.2.2)
     serviceworker-rails (0.6.0)
       railties (>= 3.1)
-    simple_token_authentication (1.17.0)
-      actionmailer (>= 3.2.6, < 7)
-      actionpack (>= 3.2.6, < 7)
-      devise (>= 3.2, < 6)
     spring (2.1.1)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -257,9 +245,7 @@ DEPENDENCIES
   letter_opener
   listen (~> 3.2)
   pg (>= 0.18, < 2.0)
-  postmark-rails
   puma (~> 4.1)
-  pundit
   rails (~> 6.0.3, >= 6.0.3.3)
   rails-i18n
   rails_same_site_cookie
@@ -267,7 +253,6 @@ DEPENDENCIES
   seed_dump
   selenium-webdriver
   serviceworker-rails
-  simple_token_authentication
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
