@@ -23,6 +23,11 @@
     $ rails db:migrate
     $ rails g devise:views
     $ touch app/views/application.html.erb
+    $ heroku create
+    $ git push origin master
+    $ touch Aptfile
+    $ git push heroku master
+
 
 ## Gem addition
 
