@@ -16,6 +16,7 @@
     $ rails db:create
     # add gems
     $ bundle install
+    $ yarn add bootstrap jquery popper.js
     $ touch app/assets/javascripts/application.js
     $ rails g serviceworker:install
     $ rails generate devise:install

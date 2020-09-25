@@ -5,6 +5,8 @@ const vue = require('./loaders/vue')
 // Preventing Babel from transpiling NodeModules packages
 environment.loaders.delete('nodeModules');
 
+const webpack = require('webpack')
+
 // Bootstrap 4 has a dependency over jQuery & Popper.js:
 environment.plugins.prepend('Provide',
   new webpack.ProvidePlugin({
