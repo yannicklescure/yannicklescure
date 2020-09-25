@@ -23,8 +23,9 @@
     $ rails db:migrate
     $ rails g devise:views
     $ touch app/views/application.html.erb
-    $ heroku create
+    $ heroku git:remote -a yannicklescure
     $ git push origin master
+    $ heroku buildpacks:add --index 1 heroku-community/apt
     $ touch Aptfile
     $ git push heroku master
 
