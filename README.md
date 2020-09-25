@@ -28,7 +28,6 @@
     $ touch Aptfile
     $ git push heroku master
 
-
 ## Gem addition
 
 ### Development
