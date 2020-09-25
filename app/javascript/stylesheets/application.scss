@@ -1,19 +1,19 @@
 @import "~bootstrap/scss/bootstrap";
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-        background: $white;
-        color: $black;
-        font-family: 'Merriweather', sans-serif;
+  background: $white;
+  color: $black;
+  font-family: 'Roboto', sans-serif;
 }
 h1,
 h2 {
-        font-weight: bold;
+  font-weight: bold;
 }
 p {
-        font-size: 16px;
-        color: $black;
+  font-size: 16px;
+  color: $black;
 }
 a:visited {
-        color: $black;
+  color: $black;
 }
