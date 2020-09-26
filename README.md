@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-## Deployment steps
+## Initial deployment steps
 
     $ rails new yannicklescure.com --database postgresql --webpack=vue
     $ cd yannicklescure.com/
@@ -14,7 +14,7 @@
     $ bundle install
     $ yarn install
     $ rails db:create
-    # add gems
+    > * add gems *
     $ bundle install
     $ yarn add bootstrap jquery popper.js
     $ yarn add @rails/webpacker
@@ -47,12 +47,12 @@ https://www.digitalocean.com/community/tutorials/how-to-add-bootstrap-to-a-ruby-
 
 * gem 'device_detector'
 * gem 'postmark-rails'
-* # gem 'friendly_id', '~> 5.2.4'
+> * gem 'friendly_id', '~> 5.2.4'
 * gem 'nokogiri'
 * gem 'public_suffix' # https://github.com/weppos/publicsuffix-ruby/
 * gem 'pundit'
 * gem 'simple_token_authentication'
-* # gem 'ancestry' # https://github.com/stefankroes/ancestry + https://stackoverflow.com/questions/25483351/passing-parent-id-to-a-comment
+> * gem 'ancestry' # https://github.com/stefankroes/ancestry + https://stackoverflow.com/questions/25483351/passing-parent-id-to-a-comment
 * gem 'aws-sdk-s3', '~> 1'
 * gem 'carrierwave', '~> 2.0'
 * gem 'fog-aws'
