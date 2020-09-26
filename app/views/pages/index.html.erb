@@ -1,0 +1,5 @@
+<% if user_signed_in? %>
+  <%= link_to t(".log_out"), destroy_user_session_path, method: :delete, class: "dropdown-item", id: "user-session", data: { confirm: t(".are_you_sure"), commit: t('buttons.ok'), cancel: t('buttons.cancel'), title: t(".log_out") } %>
+<% else %>
+  <%= link_to t('.log_in'), new_user_session_path, class: "nav-link", id: "user-session" %>
+<% end %>

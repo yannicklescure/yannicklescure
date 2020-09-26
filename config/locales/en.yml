@@ -1,5 +1,8 @@
 ---
 en:
+  buttons:
+    cancel: Cancel
+    ok: Ok
   errors:
     messages:
       not_saved: Not saved
@@ -7,3 +10,8 @@ en:
   layouts:
     devise:
       return: Return
+  pages:
+    index:
+      are_you_sure: Are you sure
+      log_in: Log in
+      log_out: Log out
