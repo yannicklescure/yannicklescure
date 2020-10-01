@@ -2,7 +2,7 @@
 
 ## Initial deployment steps
 
-    $ rails new yannicklescure.com --database postgresql --webpack=vue
+    $ rails new yannicklescure.com --database postgresql --webpack=vue or rails webpacker:install:vue later
     $ cd yannicklescure.com/
     $ git status
     $ git add .
