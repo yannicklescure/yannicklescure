@@ -1,6 +1,4 @@
-### Hi there 👋
-
-![github public vs private](./github.jpg)
+# Hi there 👋
 
 <!--
 **yannicklescure/yannicklescure** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
